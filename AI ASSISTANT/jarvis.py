@@ -56,7 +56,7 @@ if __name__=="__main__":
             elif 'open google' in query:
                 webbrowser.open("google.com")
                 
-            elif 'who creates you' in query:
+            elif 'who created you' in query:
                 speak("Sangharsh created me")
                 
         #elif "advice" in query:
