@@ -57,7 +57,7 @@ if __name__=="__main__":
                 webbrowser.open("google.com")
                 
             elif 'who creates you' in query:
-                speak("Tejas created me")
+                speak("Sangharsh created me")
                 
         #elif "advice" in query:
             #speak("Here's an advice for you, mam")
@@ -71,7 +71,7 @@ if __name__=="__main__":
                 speak("The time is {strTime}")
                 
             elif ' how are you' in query:
-                speak("I am fine")
+                speak("Super cool")
             
             elif 'logout' in query:
                 speak("Thank you")
