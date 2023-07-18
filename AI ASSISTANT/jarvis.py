@@ -47,18 +47,18 @@ if __name__=="__main__":
                 results = wikipedia.summary(query, sentences=2)
                 print(results)
                 speak(results)
-                break
+                
 
             elif 'open youtube' in query:
                 webbrowser.open("youtube.com")
-                break    
+                    
 
             elif 'open google' in query:
                 webbrowser.open("google.com")
-                break
+                
             elif 'who creates you' in query:
                 speak("Tejas created me")
-                break
+                
         #elif "advice" in query:
             #speak("Here's an advice for you, mam")
             #advice = get_random_advice()
@@ -69,10 +69,10 @@ if __name__=="__main__":
             elif 'the time' in query:
                 strTime = datetime.datetime.now().strTime("%H:%M:%S")
                 speak("The time is {strTime}")
-                break
+                
             elif ' how are you' in query:
                 speak("I am fine")
-                break
+            
             elif 'logout' in query:
                 speak("Thank you")
                 exit()
